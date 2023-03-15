@@ -28,4 +28,4 @@ jobs:
       - name: run
         run: |
           # stop the build if there are Python syntax errors or undefined names
-          pyton hello.py
+          python3 hello.py
