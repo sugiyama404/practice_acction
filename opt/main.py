@@ -8,7 +8,7 @@ CORS(app)
 
 @app.route('/', methods=['GET'])
 def hello():
-    return "hello world"
+    return "helloworld"
 
 
 if __name__ == "__main__":
