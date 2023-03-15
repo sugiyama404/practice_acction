@@ -27,7 +27,7 @@ jobs:
           # stop the build if there are Python syntax errors or undefined names
           python3 test.py
       - name: Docker Down
-        run: docker compose down -d
+        run: docker compose down
       # build and pushフェーズ
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
